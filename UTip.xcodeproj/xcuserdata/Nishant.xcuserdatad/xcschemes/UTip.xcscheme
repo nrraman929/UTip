@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "19D594531C33207100526883"
-               BuildableName = "Tippie.app"
-               BlueprintName = "Tippie"
-               ReferencedContainer = "container:Tippie.xcodeproj">
+               BuildableName = "UTip.app"
+               BlueprintName = "UTip"
+               ReferencedContainer = "container:UTip.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "19D594671C33207100526883"
-               BuildableName = "TippieTests.xctest"
-               BlueprintName = "TippieTests"
-               ReferencedContainer = "container:Tippie.xcodeproj">
+               BuildableName = "UTip.xctest"
+               BlueprintName = "UTipTests"
+               ReferencedContainer = "container:UTip.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "19D594721C33207100526883"
-               BuildableName = "TippieUITests.xctest"
-               BlueprintName = "TippieUITests"
-               ReferencedContainer = "container:Tippie.xcodeproj">
+               BuildableName = "UTip.xctest"
+               BlueprintName = "UTipUITests"
+               ReferencedContainer = "container:UTip.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "19D594531C33207100526883"
-            BuildableName = "Tippie.app"
-            BlueprintName = "Tippie"
-            ReferencedContainer = "container:Tippie.xcodeproj">
+            BuildableName = "UTip.app"
+            BlueprintName = "UTip"
+            ReferencedContainer = "container:UTip.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "19D594531C33207100526883"
-            BuildableName = "Tippie.app"
-            BlueprintName = "Tippie"
-            ReferencedContainer = "container:Tippie.xcodeproj">
+            BuildableName = "UTip.app"
+            BlueprintName = "UTip"
+            ReferencedContainer = "container:UTip.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "19D594531C33207100526883"
-            BuildableName = "Tippie.app"
-            BlueprintName = "Tippie"
-            ReferencedContainer = "container:Tippie.xcodeproj">
+            BuildableName = "UTip.app"
+            BlueprintName = "UTip"
+            ReferencedContainer = "container:UTip.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

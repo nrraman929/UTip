@@ -10,10 +10,12 @@
 		19D594581C33207100526883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D594571C33207100526883 /* AppDelegate.swift */; };
 		19D5945A1C33207100526883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D594591C33207100526883 /* ViewController.swift */; };
 		19D5945D1C33207100526883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D5945B1C33207100526883 /* Main.storyboard */; };
-		19D5945F1C33207100526883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D5945E1C33207100526883 /* Assets.xcassets */; };
-		19D594621C33207100526883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D594601C33207100526883 /* LaunchScreen.storyboard */; };
-		19D5946D1C33207100526883 /* TippieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5946C1C33207100526883 /* TippieTests.swift */; };
-		19D594781C33207100526883 /* TippieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D594771C33207100526883 /* TippieUITests.swift */; };
+		19D5946D1C33207100526883 /* UTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5946C1C33207100526883 /* UTipTests.swift */; };
+		19D594781C33207100526883 /* UTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D594771C33207100526883 /* UTipUITests.swift */; };
+		19D594861C3322E900526883 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D594851C3322E900526883 /* SettingsViewController.swift */; };
+		19D5948E1C341EB400526883 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19D5948D1C341EB400526883 /* Info.plist */; };
+		19D594921C3421A300526883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D594901C3421A300526883 /* LaunchScreen.storyboard */; };
+		19D594941C3423B800526883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D594931C3423B800526883 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19D594541C33207100526883 /* Tippie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D594541C33207100526883 /* UTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D594571C33207100526883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D594591C33207100526883 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19D5945C1C33207100526883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		19D5945E1C33207100526883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		19D594611C33207100526883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		19D594631C33207100526883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19D594681C33207100526883 /* TippieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		19D5946C1C33207100526883 /* TippieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippieTests.swift; sourceTree = "<group>"; };
+		19D594681C33207100526883 /* UTip.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTip.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D5946C1C33207100526883 /* UTipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTipTests.swift; sourceTree = "<group>"; };
 		19D5946E1C33207100526883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19D594731C33207100526883 /* TippieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		19D594771C33207100526883 /* TippieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippieUITests.swift; sourceTree = "<group>"; };
+		19D594731C33207100526883 /* UTip.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTip.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D594771C33207100526883 /* UTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTipUITests.swift; sourceTree = "<group>"; };
 		19D594791C33207100526883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D594851C3322E900526883 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		19D5948D1C341EB400526883 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D594911C3421A300526883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19D594931C3423B800526883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +80,9 @@
 		19D5944B1C33207000526883 = {
 			isa = PBXGroup;
 			children = (
-				19D594561C33207100526883 /* Tippie */,
-				19D5946B1C33207100526883 /* TippieTests */,
-				19D594761C33207100526883 /* TippieUITests */,
+				19D594561C33207100526883 /* UTip */,
+				19D5946B1C33207100526883 /* UTipTests */,
+				19D594761C33207100526883 /* UTipUITests */,
 				19D594551C33207100526883 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +90,54 @@
 		19D594551C33207100526883 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19D594541C33207100526883 /* Tippie.app */,
-				19D594681C33207100526883 /* TippieTests.xctest */,
-				19D594731C33207100526883 /* TippieUITests.xctest */,
+				19D594541C33207100526883 /* UTip.app */,
+				19D594681C33207100526883 /* UTip.xctest */,
+				19D594731C33207100526883 /* UTip.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19D594561C33207100526883 /* Tippie */ = {
+		19D594561C33207100526883 /* UTip */ = {
 			isa = PBXGroup;
 			children = (
+				19D594931C3423B800526883 /* Assets.xcassets */,
 				19D594571C33207100526883 /* AppDelegate.swift */,
 				19D594591C33207100526883 /* ViewController.swift */,
 				19D5945B1C33207100526883 /* Main.storyboard */,
-				19D5945E1C33207100526883 /* Assets.xcassets */,
-				19D594601C33207100526883 /* LaunchScreen.storyboard */,
-				19D594631C33207100526883 /* Info.plist */,
+				19D594851C3322E900526883 /* SettingsViewController.swift */,
+				19D594901C3421A300526883 /* LaunchScreen.storyboard */,
+				19D5948D1C341EB400526883 /* Info.plist */,
 			);
+			name = UTip;
 			path = Tippie;
 			sourceTree = "<group>";
 		};
-		19D5946B1C33207100526883 /* TippieTests */ = {
+		19D5946B1C33207100526883 /* UTipTests */ = {
 			isa = PBXGroup;
 			children = (
-				19D5946C1C33207100526883 /* TippieTests.swift */,
+				19D5946C1C33207100526883 /* UTipTests.swift */,
 				19D5946E1C33207100526883 /* Info.plist */,
 			);
+			name = UTipTests;
 			path = TippieTests;
 			sourceTree = "<group>";
 		};
-		19D594761C33207100526883 /* TippieUITests */ = {
+		19D594761C33207100526883 /* UTipUITests */ = {
 			isa = PBXGroup;
 			children = (
-				19D594771C33207100526883 /* TippieUITests.swift */,
+				19D594771C33207100526883 /* UTipUITests.swift */,
 				19D594791C33207100526883 /* Info.plist */,
 			);
+			name = UTipUITests;
 			path = TippieUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19D594531C33207100526883 /* Tippie */ = {
+		19D594531C33207100526883 /* UTip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19D5947C1C33207100526883 /* Build configuration list for PBXNativeTarget "Tippie" */;
+			buildConfigurationList = 19D5947C1C33207100526883 /* Build configuration list for PBXNativeTarget "UTip" */;
 			buildPhases = (
 				19D594501C33207100526883 /* Sources */,
 				19D594511C33207100526883 /* Frameworks */,
@@ -140,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = Tippie;
+			name = UTip;
 			productName = Tippie;
-			productReference = 19D594541C33207100526883 /* Tippie.app */;
+			productReference = 19D594541C33207100526883 /* UTip.app */;
 			productType = "com.apple.product-type.application";
 		};
-		19D594671C33207100526883 /* TippieTests */ = {
+		19D594671C33207100526883 /* UTipTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19D5947F1C33207100526883 /* Build configuration list for PBXNativeTarget "TippieTests" */;
+			buildConfigurationList = 19D5947F1C33207100526883 /* Build configuration list for PBXNativeTarget "UTipTests" */;
 			buildPhases = (
 				19D594641C33207100526883 /* Sources */,
 				19D594651C33207100526883 /* Frameworks */,
@@ -158,14 +165,14 @@
 			dependencies = (
 				19D5946A1C33207100526883 /* PBXTargetDependency */,
 			);
-			name = TippieTests;
+			name = UTipTests;
 			productName = TippieTests;
-			productReference = 19D594681C33207100526883 /* TippieTests.xctest */;
+			productReference = 19D594681C33207100526883 /* UTip.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		19D594721C33207100526883 /* TippieUITests */ = {
+		19D594721C33207100526883 /* UTipUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19D594821C33207100526883 /* Build configuration list for PBXNativeTarget "TippieUITests" */;
+			buildConfigurationList = 19D594821C33207100526883 /* Build configuration list for PBXNativeTarget "UTipUITests" */;
 			buildPhases = (
 				19D5946F1C33207100526883 /* Sources */,
 				19D594701C33207100526883 /* Frameworks */,
@@ -176,9 +183,9 @@
 			dependencies = (
 				19D594751C33207100526883 /* PBXTargetDependency */,
 			);
-			name = TippieUITests;
+			name = UTipUITests;
 			productName = TippieUITests;
-			productReference = 19D594731C33207100526883 /* TippieUITests.xctest */;
+			productReference = 19D594731C33207100526883 /* UTip.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +200,7 @@
 				TargetAttributes = {
 					19D594531C33207100526883 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9V55FD422R;
 					};
 					19D594671C33207100526883 = {
 						CreatedOnToolsVersion = 7.2;
@@ -204,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 19D5944F1C33207000526883 /* Build configuration list for PBXProject "Tippie" */;
+			buildConfigurationList = 19D5944F1C33207000526883 /* Build configuration list for PBXProject "UTip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19D594531C33207100526883 /* Tippie */,
-				19D594671C33207100526883 /* TippieTests */,
-				19D594721C33207100526883 /* TippieUITests */,
+				19D594531C33207100526883 /* UTip */,
+				19D594671C33207100526883 /* UTipTests */,
+				19D594721C33207100526883 /* UTipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D594621C33207100526883 /* LaunchScreen.storyboard in Resources */,
-				19D5945F1C33207100526883 /* Assets.xcassets in Resources */,
+				19D594921C3421A300526883 /* LaunchScreen.storyboard in Resources */,
 				19D5945D1C33207100526883 /* Main.storyboard in Resources */,
+				19D594941C3423B800526883 /* Assets.xcassets in Resources */,
+				19D5948E1C341EB400526883 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +267,7 @@
 			files = (
 				19D5945A1C33207100526883 /* ViewController.swift in Sources */,
 				19D594581C33207100526883 /* AppDelegate.swift in Sources */,
+				19D594861C3322E900526883 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D5946D1C33207100526883 /* TippieTests.swift in Sources */,
+				19D5946D1C33207100526883 /* UTipTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D594781C33207100526883 /* TippieUITests.swift in Sources */,
+				19D594781C33207100526883 /* UTipUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		19D5946A1C33207100526883 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 19D594531C33207100526883 /* Tippie */;
+			target = 19D594531C33207100526883 /* UTip */;
 			targetProxy = 19D594691C33207100526883 /* PBXContainerItemProxy */;
 		};
 		19D594751C33207100526883 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 19D594531C33207100526883 /* Tippie */;
+			target = 19D594531C33207100526883 /* UTip */;
 			targetProxy = 19D594741C33207100526883 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -301,10 +311,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		19D594601C33207100526883 /* LaunchScreen.storyboard */ = {
+		19D594901C3421A300526883 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				19D594611C33207100526883 /* Base */,
+				19D594911C3421A300526883 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -397,10 +407,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tippie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tippie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UTip;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +423,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tippie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tippie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UTip;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -422,8 +442,8 @@
 				INFOPLIST_FILE = TippieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TippieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tippie.app/Tippie";
+				PRODUCT_NAME = UTip;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTip.app/UTip";
 			};
 			name = Debug;
 		};
@@ -434,8 +454,8 @@
 				INFOPLIST_FILE = TippieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TippieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tippie.app/Tippie";
+				PRODUCT_NAME = UTip;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTip.app/UTip";
 			};
 			name = Release;
 		};
@@ -445,7 +465,7 @@
 				INFOPLIST_FILE = TippieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TippieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UTip;
 				TEST_TARGET_NAME = Tippie;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +477,7 @@
 				INFOPLIST_FILE = TippieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TippieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UTip;
 				TEST_TARGET_NAME = Tippie;
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +486,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19D5944F1C33207000526883 /* Build configuration list for PBXProject "Tippie" */ = {
+		19D5944F1C33207000526883 /* Build configuration list for PBXProject "UTip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19D5947A1C33207100526883 /* Debug */,
@@ -475,29 +495,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19D5947C1C33207100526883 /* Build configuration list for PBXNativeTarget "Tippie" */ = {
+		19D5947C1C33207100526883 /* Build configuration list for PBXNativeTarget "UTip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19D5947D1C33207100526883 /* Debug */,
 				19D5947E1C33207100526883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		19D5947F1C33207100526883 /* Build configuration list for PBXNativeTarget "TippieTests" */ = {
+		19D5947F1C33207100526883 /* Build configuration list for PBXNativeTarget "UTipTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19D594801C33207100526883 /* Debug */,
 				19D594811C33207100526883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		19D594821C33207100526883 /* Build configuration list for PBXNativeTarget "TippieUITests" */ = {
+		19D594821C33207100526883 /* Build configuration list for PBXNativeTarget "UTipUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19D594831C33207100526883 /* Debug */,
 				19D594841C33207100526883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
