@@ -33,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-This was the first mobile application I have ever made. It took me a while to get used to Swift, especially Optional values and using NS elements, however it came in very handy once I got the hang of them.
+This was the first mobile application I have ever made and the first time ever using Xcode. It took me a while to get used to Swift, especially Optional values and using NS elements, however it came in very handy once I got the hang of them.
 Getting up the App Icon and Launch Image. 
 Figuring out how to properly use locale.
 Casting of NSDate and NSTimeInterval to properly compare to 10 minute interval.
